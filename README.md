@@ -1,2 +1,3 @@
 # database
-sql &amp; nosql
+
+sql & nosql
