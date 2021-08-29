@@ -808,9 +808,31 @@ QUEUED
 
 ## 4 Jedis
 
++ 导入依赖
 
+```xml
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.6.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.78</version>
+        </dependency>
+```
 
+代码：redis-01-jedis
 
+连接时遇到 bug，解决方法：
+
+1. 注释 bind [https://www.cnblogs.com/shihuibei/p/9256397.html](https://www.cnblogs.com/shihuibei/p/9256397.html)
+2. [https://blog.csdn.net/qq_40369944/article/details/82794888](https://blog.csdn.net/qq_40369944/article/details/82794888)
+
+Jedis 的 API 和 redis 的一模一样！
 
 
 
