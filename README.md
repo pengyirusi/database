@@ -2,4 +2,4 @@
 
 sql & nosql
 
-正在更新：redis
+已完结：redis

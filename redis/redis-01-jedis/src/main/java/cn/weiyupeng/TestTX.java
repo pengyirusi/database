@@ -36,9 +36,5 @@ public class TestTX {
             jedis.close(); // 关闭连接
             System.out.println("closed");
         }
-
-
-
-
     }
 }
